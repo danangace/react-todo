@@ -1,0 +1,38 @@
+.box-todo-wrap {
+  background: var(--white);
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--light-gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.todo-info-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.info-todo {
+  font-size: 10px;
+  color: var(--secondary);
+  margin-top: 10px;
+}
+
+.info-date {
+  color: var(--black);
+}
+
+.delete-todo {
+  color: var(--red);
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.delete-todo:hover {
+  font-size: 13px;
+}

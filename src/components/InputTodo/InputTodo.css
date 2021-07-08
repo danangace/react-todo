@@ -1,0 +1,35 @@
+.input-todo {
+  font-size: 14px;
+  border-radius: 10px;
+  min-width: 250px;
+  padding: 10px;
+  border: 1px solid var(--secondary);
+  background: var(--white);
+}
+
+.input-todo:focus {
+  outline: none !important;
+  border-color: var(--primary);
+}
+
+
+.btn-todo {
+  margin-left: 16px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  background: var(--primary);
+  cursor: pointer;
+  border: 1px solid var(--primary);
+  color: var(--white);
+}
+
+@media screen and (max-width: 425px) {
+  .input-todo {
+    width: 75%;
+  }
+
+  .btn-todo {
+    margin-left: 0px;
+    margin-top: 16px;
+  }
+}
